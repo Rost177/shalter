@@ -291,7 +291,7 @@ color: #ffffff;
     filter: drop-shadow(5px 5px 5px rgba(143, 142, 142, 0.3));
     color: #f1efef;
     transform: translateY(-7px);
-    transition: .3s all ease;
+    transition: .5s all ease;
 }
 
 .name {
@@ -353,4 +353,208 @@ color: #ffffff;
     font-weight: 400;
     letter-spacing: 0.06em;
     color: #292929;
+}
+/*====================================*/
+.help__container {
+    height: 595px;
+}
+
+.title-help {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 75px;
+    font-family: Georgia;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.your-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.help-item {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: auto;
+    margin-top: 85px;
+}
+
+
+.help-img {
+    padding-left: 35%;
+}
+.help-img:hover {
+    filter: drop-shadow(5px 5px 5px rgba(115, 114, 114, 0.3));
+    color: #f1efef;
+    transform: translateY(-7px);
+    transition: .5s all ease;
+}
+
+.help-text {
+    padding-left: 28%;
+    padding-top: 29px;
+}
+.help-text-toys {
+    padding-left: 39%;
+    padding-top: 29px;
+}
+/*====================================*/
+.donat {
+    width: auto;
+    height: 434px;
+    background-color: #f6f6f6;
+}
+
+.donat__container {
+    max-width: 915px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.donat-img {
+    width: 100%;
+    height: auto;
+    margin-top: 88px;
+}
+
+.donat-info {
+    margin: 70px auto 85px 63px;
+}
+
+.donat-title {
+    max-width: 370px;
+    font-family: Georgia;
+    font-size: 31px;
+    line-height: 45px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-bottom: 35px;
+}
+.donat-subtitle {
+    font-family: Georgia;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-bottom: 13px;
+}
+
+.donat-credit {
+    position: relative;
+    width: 319px;
+    height: 47px;
+    background-color: #f1cdb3;
+    border-radius: 9px;
+    margin-bottom: 35px;
+}
+.credit-img {
+    padding: 12px 14px;
+}
+.credit-nomber {
+    position: absolute;
+    padding: 16px 15px;
+    text-align: center;
+}
+
+.donat-text {
+    max-width: 350px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #b2b2b2;
+}
+/*====================================*/
+.footer {
+    background-image: url(../img/foot.png);
+    width: 100%;
+    height: 362px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content1-title {
+    max-width: 270px;
+    margin-top: 80px;
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+
+.footer-mail {
+    margin-top: 40px;
+}
+.mail-img {
+    padding-right: 20px;
+}
+.mail1 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+}
+
+.footer-phone {
+    margin-top: 40px;
+}
+.phone-img {
+    padding-right: 20px;
+}
+.phone1 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+}
+
+.content5 {
+    margin-top: 90px;
+    margin-left: 160px;
+}
+
+.content5-title {
+    max-width: 262px;
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+.pin {
+    max-width: 245px;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+}
+
+.location {
+    margin-top: 40px;
 }
