@@ -13,37 +13,42 @@
     <div class="wrapper">
         <header class="header">
             <div class="header__container">
+                <div class="header-body">
                 <div class="header-logo">
                     <a href="" class="logo">Cozy House</a>
                     <span class="smoll">Shelter for pets in Boston</span>
                 </div>
-                <nav class="menu">
-                    <div class="nav-list">
-                        <ul>
-                            <li class="list-item">
-                                <a href="" class="list-link">About the shelter</a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                        <ul class="header-list">
+                            <li>
+                                <a href="" class="header-link">About the shelter</a>
                             </li>
-                            <li class="list-item"> 
-                                <a href="" class="list-link">Our pets</a>
+                            <li> 
+                                <a href="" class="header-link">Our pets</a>
                             </li>
-                            <li class="list-item">
-                                <a href="" class="list-link">To help the shelter</a>
+                            <li>
+                                <a href="" class="header-link">To help the shelter</a>
                             </li>
-                            <li class="list-item">
-                                <a href="" class="list-link">Contacts</a>
+                            <li>
+                                <a href="" class="header-link">Contacts</a>
                             </li>
                         </ul>
-                    </div>
                 </nav>
-                <div class="header-content">
-                    <h1 class="content">Not only people need a house</h1>
-                    <p class="content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida est in porttitor porttitor. Duis sodales elementum ipsum, vehicula condimentum erat fringilla et.;</p>
-                <button class="header-btn">
-                    <a href="" class="btn-link">Make a friend</a>
-                </button>
             </div>
             </div>
         </header>
+        <div class="header-content">
+            <div class="content__container">
+            <h1 class="content">Not only people need a house</h1>
+            <p class="content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida est in porttitor porttitor. Duis sodales elementum ipsum, vehicula condimentum erat fringilla et.;</p>
+        <button class="header-btn">
+            <a href="" class="btn-link">Make a friend</a>
+        </button>
+        </div>
+        </div>
         <section class="about">
             <div class="about__container">
                 <img class="about-img" src="img/pets_m.png" alt="pets">
@@ -62,21 +67,21 @@
                     <div class="arrow-l arrow-main">
                         <img class="arrow-img" src="img/arrows/left_arrow.png" alt="arrow">
                     </div>
-                    <div class="friend-item">
+                    <div class="friend__item friend-item1">
                         <img class="friend-img" src="img/friend1.png" alt="img">
                         <p class="name">Katrine</p>
                         <button class="friend-btn">
                             <a href="" class="friend-link">Learn More</a>
                         </button>
                     </div>
-                    <div class="friend-item">
+                    <div class="friend__item friend-item2">
                         <img class="friend-img" src="img/friend2.png" alt="img">
                         <p class="name">Jennifer</p>
                         <button class="friend-btn">
                             <a href="" class="friend-link">Learn More</a>
                         </button>
                     </div>
-                    <div class="friend-item">
+                    <div class="friend__item friend-item3">
                         <img class="friend-img" src="img/friend3.png" alt="img">
                         <p class="name">Woody</p>
                         <button class="friend-btn">
@@ -143,7 +148,7 @@
         <section class="donat">
             <div class="donat__container">
                 <div class="donat-img">
-                    <img src="img/dog_12.png" alt="dog">
+                    <img class="img-donat" src="img/dog_12.png" alt="dog">
                 </div>
                 <div class="donat-info">
                     <div class="donat-title">
@@ -193,5 +198,7 @@
             </div>
         </footer>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
